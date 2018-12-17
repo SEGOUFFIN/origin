@@ -1,0 +1,83 @@
+<!-- HEADER -->
+<header>
+</header>
+
+<!-- BODY jusqu'en bas de la page -->
+<body>
+
+<!-- Mise en avant du titre -->
+	<h1 style="text-align: center;"><strong>Mes motos</strong></h1>
+
+<!-- paragraphe de texte -->
+	<p>Je vais vous parler de mes motos preferees....</p>
+
+<!-- image cliquable qui s'agrandit au clic --> 
+	<p><a title="cliquer pour agrandir" href="r1200rt.jpeg" target="_windows"><img src="icomoto.png" alt="R1200RT" width="50" height="50" /></a></p>
+
+<!-- Liste ordonnée avec liens vers pages externes dans nouvelle fenetre et infobulle -->
+	<h2><strong>Liste des marques de motos connues :</strong></h2>
+	<ul>
+		<li><a title="BMW" href="https://www.bmw-motorrad.fr/fr/home.html#/filter-voir-tout" target="_blank">BMW</a></li>
+		<li>YAMAHA</li>
+		<li>HONDA</li>
+		<li>SUZUKI</li>
+	</ul>
+
+	<h2><strong>Liste des motos BMW :</strong></h2>
+
+<!-- Tableau -->
+	<table border="1">
+		<tbody>
+			<tr>
+				<td style="width: 130px; text-align: center;"><strong>Type</strong></td>
+				<td style="width: 130px; text-align: center;"><strong>Cylindree</strong></td>
+				<td style="width: 130px; text-align: center;"><strong>Annee</strong></td>
+				<td style="width: 130px; text-align: center;"><strong>Marque</strong></td>
+			</tr>
+			<tr>
+				<!-- lien vers page interne dans sous-dossier (sous-dossier motos) -->
+				<td style="width: 130px;"><a title="R1200RT" href="motos/r1200rt.html">R1200RT</a></td>
+				<td style="width: 130px;">1200</td>
+				<td style="width: 130px;">2016</td>
+				<td style="width: 130px;">BMW</td>
+			</tr>
+			<tr>
+				<td style="width: 130px;">K1600GTL</td>
+				<td style="width: 130px;">1600</td>
+				<td style="width: 130px;">2013</td>
+				<td style="width: 130px;">BMW</td>
+			</tr>
+			<tr>
+				<td style="width: 130px;">K1300S</td>
+				<td style="width: 130px;">1300</td>
+				<td style="width: 130px;">2010</td>
+				<td style="width: 130px;">BMW</td>
+			</tr>
+		</tbody>
+	</table>
+
+<!-- image chemin absolu -->
+	<p><a title="ma moto" href="http://bmwdean.com/rt-barn.jpg" target="_blank" rel="noopener">Ma Moto</a></p>
+
+<!-- image chemin relatif (ici dans le repertoire courant de index.html) -->
+	<p><a title="ma future moto" href="latrot.jpeg" target="_blank" rel="noopener">Ma FUTURE Moto</a></p>
+
+<!-- figure et explication du rôle de cette balise : Sert a legender un ensemble d'elements compris dans un conteneur delimite par figure -->
+	<figure>
+  		<img src="legende.jpeg" alt="Moto de legende" width="200">
+  		<figurecaption>Je suis la legende de l'image , oui oui !</figurecaption>
+	</figure>
+
+<!-- lien vers page interne sans sous-dossier  -->
+	<p><a title="Mes plus belles ballades cette annee" href="ballades2018.html">Mes plus belles ballades cette annee</a> </p>
+
+<!-- lien vers ancre (moteur2) d'une autre page interne r1200rt.html dans le sous-dossier motos -->
+	<p><a title="Voir un moteur de R1200RT" href="motos/r1200rt.html#moteur2">Voir un moteur de 1200RT</a></p>
+
+<!-- lien pour envoyer un mail -->
+	<hr>
+	<p>Si vous voulez en savoir plus <a href="mailto:brice@segouffin.fr?Subject=Motos!" target="_top"> Ecrivez-moi!</a></p>
+
+</body>
+</html>
+
